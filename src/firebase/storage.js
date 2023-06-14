@@ -32,7 +32,7 @@ async function uploadIMG(ruteDB, ruteSTG, fileName, file, object, setUserData, s
             .catch((error) => {
             });
     });
-}
+}   
 
 let object = {}
 export { uploadIMG }
